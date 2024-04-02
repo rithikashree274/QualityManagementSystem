@@ -10,7 +10,7 @@ load_dotenv()
 
 APIKEY = os.environ.get("OPENAI_APIKEY")
 API_ENDPOINT = 'https://api.openai.com/v1/chat/completions'
-
+print(APIKEY)
 
 import warnings
 
