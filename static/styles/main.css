@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png?fmt=webp&w=500');
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+input[type="file"] {
+    margin-right: 10px;
+    display: inline-block; 
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#error-message {
+    color: #ff0000;
+}

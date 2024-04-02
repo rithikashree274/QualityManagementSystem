@@ -1,0 +1,6 @@
+flask
+gunicorn
+lyzr
+numpy
+librosa
+matplotlib
