@@ -8,7 +8,7 @@ import requests
 import templates
 load_dotenv()
 
-APIKEY = os.getenv("OPENAI_APIKEY")
+APIKEY = os.environ.get("OPENAI_APIKEY")
 API_ENDPOINT = 'https://api.openai.com/v1/chat/completions'
 
 
